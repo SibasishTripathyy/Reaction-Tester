@@ -1,0 +1,35 @@
+
+
+#shape {
+
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    display: none;
+    position: relative;
+
+}
+
+.buttonDesign {
+
+    font-size: 50px;
+    color: white;
+    background-color: darkblue;
+    font-weight: bold;
+    border: 1px solid #900;
+
+}
+
+.buttonDesign:hover {
+
+    color: #FFF;
+    background: #900;
+    cursor: pointer;
+
+}
+
+#developer {
+
+    float: right;
+
+}
