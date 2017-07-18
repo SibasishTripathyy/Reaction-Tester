@@ -1,4 +1,14 @@
 
+#shape-div {
+    
+    width: 1000px;
+    height: 450px;
+    background-color: lightyellow;
+    margin: 0 auto;
+    z-index: 1;
+    border: 1px solid black;
+    
+}
 
 #shape {
 
@@ -7,6 +17,7 @@
     background-color: red;
     display: none;
     position: relative;
+    z-index: 5;
 
 }
 
@@ -17,6 +28,7 @@
     background-color: darkblue;
     font-weight: bold;
     border: 1px solid #900;
+    margin-bottom: 10px;
 
 }
 
