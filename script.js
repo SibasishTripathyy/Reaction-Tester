@@ -1,5 +1,5 @@
         document.getElementById("startButton").onclick = function() {
-            
+           
                 var ctr = 1;
             
                 var totalTime = 0;
@@ -27,9 +27,9 @@
                     
                     document.getElementById("shape").style.backgroundColor = getRandomColor();
 
-                    var width = (Math.random() * 300) + 100;
+                    var width = (Math.random() * 100) + 100;
                                         
-                    var position = Math.random() * 500;
+                    var position = Math.random() * 250;
                     var positionLeft = Math.random() * 800;
                     
                     if(Math.random() > 0.5) {
@@ -58,20 +58,20 @@
 
                 setTimeout(appearance, Math.random() * 1000);
 
-                    document.getElementById("shape").onclick = function() {
-
-                        document.getElementById("shape").style.display = "none";
-
-                        var t1 = performance.now();
+                document.getElementById("shape").onclick = function() {
+                    
+                    document.getElementById("shape").style.display = "none";
+                    
+                     var t1 = performance.now();
 
                         var timeTaken = (t1- t0)/1000;
                                                 
                         if(bestTime > timeTaken) {
                             
                             bestTime = timeTaken;
-                            
-                        }
-
+                    
+                }
+                    
                         document.getElementById("timeTaken").innerHTML = timeTaken + "s";
                         document.getElementById("bestTimeTaken").innerHTML = bestTime + "s";
                         
