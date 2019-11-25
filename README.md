@@ -5,16 +5,6 @@ This is a simple game which on clicking the start button, produces random colour
 
 It then waits for the user to click the shape and displays the time elapsed(since the shape appeared and the click of the user), best-time, average-time and no of trials.
 
+Visit here to play:- https://sibasishtripathyy.github.io/
+
 Hope you enjoy!
-
-**Update**
-
-This game was uploaded on a free hosting website and due to some inconvinience, the website is now un-available. The code still works and can be cloned and used/modified.
-
-**Update 2**
-
-The link has started working again somehow. The link stops working and comes into action time and again. If you try to visit the above given link and it doesn't work then am sorry for that, else enjoy!.
-
-**Update 3**
-
-Removed the link completely. Clone and make it work. If I ever upload it on a free hosting website, I will add the link again.
