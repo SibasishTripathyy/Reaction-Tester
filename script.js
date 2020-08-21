@@ -1,4 +1,4 @@
-        document.getElementById("startButton").onclick = function() {
+    document.getElementById("startButton").onclick = function() {
            
                 var ctr = 1;
             
@@ -29,8 +29,8 @@
 
                     var width = (Math.random() * 100) + 100;
                                         
-                    var position = Math.random() * 250;
-                    var positionLeft = Math.random() * 800;
+                    var position = Math.random() * 130;
+                    var positionLeft = Math.random() * 850;
                     
                     if(Math.random() > 0.5) {
                         
@@ -72,12 +72,12 @@
                     
                 }
                     
-                        document.getElementById("timeTaken").innerHTML = timeTaken + "s";
-                        document.getElementById("bestTimeTaken").innerHTML = bestTime + "s";
+                        document.getElementById("timeTaken").innerHTML = timeTaken.toFixed(3) + "s";
+                        document.getElementById("bestTimeTaken").innerHTML = bestTime.toFixed(3) + "s";
                         
                         totalTime = totalTime + timeTaken;
                         avgTime = totalTime/ctr;
-                        document.getElementById("avgTimeTaken").innerHTML = avgTime + "s";
+                        document.getElementById("avgTimeTaken").innerHTML = avgTime.toFixed(3) + "s";
                         
                         document.getElementById("trials").innerHTML = ctr;
                         ctr++;

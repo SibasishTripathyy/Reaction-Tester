@@ -2,7 +2,7 @@
 #shape-div {
     
     width: 1000px;
-    height: 350px;
+    height: 400px;
     background-color: lightyellow;
     margin: 0 auto;
     z-index: 1;
@@ -21,27 +21,19 @@
 
 }
 
-.buttonDesign {
-
-    font-size: 50px;
-    color: white;
-    background-color: darkblue;
-    font-weight: bold;
-    border: 1px solid #900;
-    margin-bottom: 10px;
-
+a {
+    text-decoration: none;
+    color: black;
 }
 
-.buttonDesign:hover {
-
-    color: #FFF;
-    background: #900;
-    cursor: pointer;
-
+a:hover {
+    color: blue;
+    text-decoration: none;
 }
 
-#developer {
-
-    float: right;
-
+blink {
+    animation: blinker 1.5s linear infinite;
+}
+@keyframes blinker {  
+    50% { opacity: 0; }
 }
